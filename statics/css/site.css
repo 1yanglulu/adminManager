@@ -17,6 +17,7 @@ body{
    overflow-y: auto;
 }
 
+
 /*滚动条样式*/
 .upload-demo::-webkit-scrollbar {/*滚动条整体样式*/
    width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
@@ -140,4 +141,31 @@ text-decoration: none;
 }
 .el-upload-list.el-upload-list--picture{
    margin-right: 10px;
+}
+.goodstip{
+    padding: 3px;
+}
+.abread {
+    padding: 10px;
+}
+
+ .ls.el-icon-picture,.ls.el-icon-upload,.ls.el-icon-star-on{
+     opacity: 0.5;
+     font-size: 18px;
+ }
+
+ .ls.el-icon-picture.imgactive,.ls.el-icon-upload.imgactive,.ls.el-icon-star-on.imgactive{
+    opacity: 1;
+    font-size: 12px;
+ }
+ .listedit {
+     color:#2A72C5;
+     font-size: 12px;
+
+ }
+ .el-input__inner {
+     font-size:12px;
+ }
+ .el-input__icon + .el-input__inner {
+    padding-right: 8px;
 }

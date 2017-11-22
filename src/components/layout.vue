@@ -9,8 +9,10 @@
                     <el-submenu index="1">
                         <template slot="title">
                             <i class="el-icon-message"></i>购物商城</template>
-                        <el-menu-item-group>                               
+                        <el-menu-item-group>
+                            <router-link to='/admin/goodslist'>                             
                             <el-menu-item index="1-1">内容管理</el-menu-item>
+                            </router-link>  
                             <el-menu-item index="1-2">分类管理</el-menu-item>
                             <el-menu-item index="1-3">评论管理</el-menu-item>
                         </el-menu-item-group>                           
@@ -56,7 +58,6 @@
             <el-row>
                 <el-col :span="24">
                     <!-- 3.0 其他功能的渲染区占位符 -->
-                    其他功能的渲染区占位符
                     <router-view></router-view>
 
                 </el-col>
