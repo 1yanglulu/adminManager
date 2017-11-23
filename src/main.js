@@ -10,7 +10,7 @@ import App from './App.vue';
 import VueRouter from 'vue-router';
 // 3.0.0 将VueRouter对象通过Vue.use()使用一下
 Vue.use(VueRouter);
-// Vue.config.productionTip = false
+// Vue.config.productionTip = false;
 //3.0.2导入组件对象
 import layout from './components/layout.vue';
 import login from './components/account/login.vue';
