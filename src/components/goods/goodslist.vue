@@ -19,11 +19,12 @@
                     <el-row>
                         <el-col :span="6">
                             <!--按钮和搜索框  -->
-                            <el-button size="small">全选</el-button>
-                            <el-button size="small">新增</el-button>
-                            <el-button size="small">删除</el-button>
+                            <router-link to='/admin/goodsadd'>
+                            <el-button size="small" icon='plus'>新增</el-button>
+                            </router-link>
+                            <el-button size="small" icon='check'>全选</el-button>
+                            <el-button size="small" icon='delete'>删除</el-button>
                         </el-col>
-
                         <el-col :offset="14" :span="4">
                             <!-- 搜索框 -->
                             <el-input placeholder="请输入搜索内容" icon="search" v-model="searchValue" :on-icon-click="getlist">
